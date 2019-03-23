@@ -1,0 +1,15 @@
+{
+  "name": "rabbit_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "salamander",
+  "license": "ISC"
+}

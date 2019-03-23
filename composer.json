@@ -1,0 +1,20 @@
+{
+    "name": "salamander/rabbit_exercise",
+    "type": "project",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "salamander",
+            "email": "1906747819@qq.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^2.9"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}
