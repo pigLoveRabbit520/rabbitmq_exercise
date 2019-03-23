@@ -9,6 +9,8 @@
         }
     ],
     "require": {
+        "php": ">= 7.0",
+        "ext-json": "*",
         "php-amqplib/php-amqplib": "^2.9"
     },
     "repositories": {
