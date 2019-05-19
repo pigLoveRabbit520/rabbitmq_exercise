@@ -8,11 +8,10 @@ services:
     hostname: mq1
     volumes:
       - ./mnesia:/var/lib/rabbitmq/mnesia
+      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
     ports:
       - "55672:15672"
       - "56720:5672"
     environment:
       - CONTAINER_NAME=rabbitMQ
       - RABBITMQ_ERLANG_COOKIE=3t182q3wtj1p9z0kd3tb
-      - RABBITMQ_DEFAULT_USER=local_test
-      - RABBITMQ_DEFAULT_PASS=DkqkuGkOsBTzKtMt
