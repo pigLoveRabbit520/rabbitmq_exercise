@@ -1,2 +1,2 @@
 # rabbitmq练习
-rabbitMQ使用
+* 启动`RabbitMQ`：`docker-compose up -d`
